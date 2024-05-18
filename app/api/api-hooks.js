@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { getNormalizedGameDataByCategory } from "@/app/api/api-utils";
+import { getNormalizedGamesDataByCategory } from "@/app/api/api-utils";
 
 
 export const useGetDataByCategory = (endpoint, category) => {

@@ -31,7 +31,7 @@ export const getNormalizedGameDataById = async (url, id) => {
     return isResponseOk(data) ? normalizeDataObject(data) : data;
 };
 
-export const getNormalizedGameDataByCategory = async (url, category) => {
+export const getNormalizedGamesDataByCategory = async (url, category) => {
     try {
       const data = await getData(`${url}?categories.name=${category}`)
       if (!data.length) {
