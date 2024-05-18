@@ -1,3 +1,5 @@
+"use client";
+
 import Styles from './AuthForm.module.css';
 import { useEffect, useState } from "react";
 import { authorize, isResponseOk, getMe } from "@/app/api/api-utils";
